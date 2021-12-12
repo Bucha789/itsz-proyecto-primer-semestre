@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDAF - Algoritmos For</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./main.css">
+    <!-- javascript -->
+    <script src="./index.js" defer></script>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&family=Space+Mono:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="title__container">
+      <!-- <img src="./assets/img/logo.png" alt=""> -->
+      <h1>PFADP <span>El mejor sitio de algoritmos</span></h1>
+    </div>
+    <nav class="menu-desktop">
+      <a href="/">Perritos Img</a>
+      <a href="/">Rick And Morty</a>
+      <a href="/">Ducks Img</a>
+      <a href="/">Siglos</a>
+      <a href="/">Factorial</a>
+    </nav>
+    <nav class="menu-mobile">
+      <img class="open" src="../../assets/img/menu-button-of-three-horizontal-lines.png" alt="">
+      <img class="close" src="../../assets/img/close.png" alt="">
+    <ul class="mobile-options">
+      <li><a href="./Pages/secuenciales.html">Perritos Img</a></li>
+      <li><a href="/">Rick And Morty</a></li>
+      <li><a href="/">Ducks Img</a></li>
+      <li><a href="/">Siglos</a></li>
+      <li><a href="/">Factorial</a></li>
+    </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="images__container">
+      <div class="carrousel__container">
+        <img class="image__slider" src="../../assets/img/13percentdiscount.jpg" alt="diagrama de flujo">
+        <img class="image__slider" src="../../assets/img/productoscondescuento.jpg" alt="diagrama de flujo">
+        <img class="image__slider active" src="../../assets/img/mayordedadcounter.jpg" alt="diagrama de flujo">
+      </div>
+    </section>
+    <section class="algoritmo__container">
+      <h3>1.- Generador de perritos Random </h3>
+      <p>Solamente selecciona el número de perritos que te gustaría que aparecieran.</p>
+      <form id="dogsForm">
+        <label name="numberOfDogs">
+          <span>Número de perritos:</span>
+        <input type="number"  min="1" max="50" name="numberOfDogs" id="numberOfDogs">
+        </label>
+        <button class="button__form">Mostrar</button>
+      </form>
+      <div id="dogsResults"></div>
+    </section>
+    <section class="algoritmo__container">
+      <h3>2.- Generador de personajes de Rick And Morty Random </h3>
+      <p>Da click en el botón empezar para mostrarte personajes random de rick and morty.</p>
+      <button id="rickButton" class="button__form">Mostrar</button>
+    </section>
+    <section class="algoritmo__container">
+      <h3>3.- Generador de patos Random</h3>
+      <p>Selecciona el número de patitos que te gustaría ver. No seas malo con el algoritmo selecciona números no tan grandes ;).</p>
+      <form id="quacksForm">
+        <label name="numberOfDucks">
+          <span>Número de Quacks:</span>
+        <input type="number" name="numberOfDucks" min="1" max="282" id="numberOfDucks">
+        </label>
+        <button class="button__form">Mostrar</button>
+      </form>   
+    </section>
+    <section class="algoritmo__container">
+      <h3>4.- Calculadora de Siglos</h3>
+      <p>Ingresa el año para saber a que siglo corresponde.</p>
+      <form id="sigloForm">
+        <label name="year">
+          <span>Año a calcular:</span>
+          <input type="number" name="year" id="year">
+        </label>
+        <button class="button__form">Saber</button>
+      </form>
+      <p id="sigloResult"></p>
+    </section>
+    <section class="algoritmo__container">
+      <h3>5.- Factorial y Sumarial de un N número.</h3>
+      <p>Ingresa el número que quieres evaluar.</p>
+      <form id="factForm">
+        <label name="number">
+          <span>Número:</span>
+          <input type="number" name="number" id="number">
+        </label>
+        <button class="button__form">Calcular</button>
+      </form>
+      <p id="sumResult"></p>
+      <p id="facResult"></p>
+    </section>
+  </main>
+</body>
+</html>

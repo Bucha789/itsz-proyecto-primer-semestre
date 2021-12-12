@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDAF - Algoritmos While</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./main.css">
+    <!-- javascript -->
+    <script src="./main.js" defer></script>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&family=Space+Mono:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="title__container">
+      <!-- <img src="./assets/img/logo.png" alt=""> -->
+      <h1>PFADP <span>El mejor sitio de algoritmos</span></h1>
+    </div>
+    <nav class="menu-desktop">
+      <a href="/">Porcentaje</a>
+      <a href="/">Celcius a °F</a>
+      <a href="/">Potencias</a>
+      <a href="/">Distancia</a>
+      <a href="/">Circulo</a>
+    </nav>
+    <nav class="menu-mobile">
+      <img class="open" src="../../assets/img/menu-button-of-three-horizontal-lines.png" alt="">
+      <img class="close" src="../../assets/img/close.png" alt="">
+    <ul class="mobile-options">
+      <li><a href="./Pages/secuenciales.html">Porcentaje</a></li>
+      <li><a href="/">Celcius a °F</a></li>
+      <li><a href="/">Potencias</a></li>
+      <li><a href="/">Distancia</a></li>
+      <li><a href="/">Circulo</a></li>
+    </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="images__container">
+      <div class="carrousel__container">
+        <img class="image__slider" src="../../assets/img/13percentdiscount.jpg" alt="diagrama de flujo">
+        <img class="image__slider" src="../../assets/img/productoscondescuento.jpg" alt="diagrama de flujo">
+        <img class="image__slider active" src="../../assets/img/mayordedadcounter.jpg" alt="diagrama de flujo">
+      </div>
+    </section>
+    <section class="algoritmo__container">
+      <h3>1.- Elevar un número a cierta potencia.</h3>
+      <p>Por favor ingresa el número y el valor de la potencia al cual quieres elevar ese número.</p>
+      <form id="powForm">
+        <label name="numero">
+        <span>Número:</span>
+        <input type="number" min="1" name="numero" id="numero">
+        </label>
+        <label name="potencia">
+        <span>Potencia:</span>
+        <input type="number" min="1" name="potencia" id="potencia">
+        </label>
+        <button class="button__form">Calcular</button>
+      </form>
+      <p id="powResult"></p>
+    </section>
+    <section class="algoritmo__container">
+      <h3>2.- El número más grande y el menor de n números dados</h3>
+      <p>Para ingresar los valores a comparar ingresa una coma despues de ellos.</p>
+      <form id="rangeForm">
+        <label name="valores">
+          <span>Número de valores a comparar:</span>
+          <input type="text" name="valores" placeholder="Ejemplo: 1,2,3,4,5" id="valores">
+        </label>
+        <button class="button__form">Calcular</button>
+      </form>
+      <p id="rangeResult"></p>
+    </section>
+    <section class="algoritmo__container">
+      <h3>3.- Calculadora de reprobados</h3>
+      <p>Esta calculadora te ayudará como profesor a conocer cuantos alumnos han sido aprobados, ingresa los datos para saber más y empezar con el registro.</p>
+      <p>Ingresa el número de datos a recolectar y el porcentaje minimo de aprobación.</p>
+      <form id="repForm">
+        <label name="alumnos">
+          <span>Número de alumnos a evaluar:</span>
+          <input type="number" min="1" name="alumnos" id="alumnos">
+        </label>
+        <label name="aprobacion">
+          <span>Calificación mínima de aprobación:</span>
+          <input type="number" name="aprobacion" id="aprobacion">
+        </label>
+        <button class="button__form">Capturar</button>
+      </form>
+      <div id="repResults">
+      </div>
+    </section>
+    <section class="algoritmo__container">
+      <h3>4.- Contador de números pares </h3>
+      <p>Este algoritmo te mostrará en pantalla los números que son pares hasta el número que tu hayas ingresado.</p>
+      <form id="parForm">
+        <label name="numero">
+          <span>Contar hasta el número:</span>
+          <input type="number" name="numero" id="numeroPar">
+        </label>
+        <button class="button__form">Calcular</button>
+      </form>
+      <div id="parResults"></div>
+    </section>
+    <section class="algoritmo__container">
+      <h3>5.- Imprimir un mensaje cierto número de veces</h3>
+      <p>Simplemente lo que quieras imprimir para copiarlo las veces que quieras.</p>
+      <form id="ultimoForm">
+        <label name="mensaje">
+          <span>Lo que quieres imprimir:</span>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        </label>
+        <label name="veces">
+          <span>Cuantas veces lo quieres imprimir:</span>
+          <input type="number" name="veces" id="veces">
+        </label>
+        <button class="button__form">Generar</button>
+      </form>
+      <div id="ultimoResults"></div>
+    </section>
+  </main>
+</body>
+</html>

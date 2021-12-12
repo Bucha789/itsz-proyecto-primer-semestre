@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDAF - Algoritmos con Switch</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./switch.css">
+  <!-- javascript -->
+  <script src="./index.js" defer></script>
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&family=Space+Mono:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="title__container">
+      <!-- <img src="./assets/img/logo.png" alt=""> -->
+      <h1>PFADP <span>El mejor sitio de algoritmos</span></h1>
+    </div>
+    <nav class="menu-desktop">
+      <a href="/">Areas</a>
+      <a href="/">Peso Planetas</a>
+      <a href="/">Divisas</a>
+      <a href="/">Medidas escalares</a>
+      <a href="/">Boletos</a>
+    </nav>
+    <nav class="menu-mobile">
+      <img class="open" src="../assets/img/menu-button-of-three-horizontal-lines.png" alt="">
+      <img class="close" src="../assets/img/close.png" alt="">
+      <ul class="mobile-options">
+        <li><a href="/">Areas</a></li>
+        <li><a href="/">Peso Planetas</a></li>
+        <li><a href="/">Divisas</a></li>
+        <li><a href="/">Medidas Escalares</a></li>
+        <li><a href="./Pages/secuenciales.html">Boletos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="images__container">
+      <div class="carrousel__container">
+        <img class="image__slider" src="../assets/img/13percentdiscount.jpg" alt="diagrama de flujo">
+        <img class="image__slider" src="../assets/img/productoscondescuento.jpg" alt="diagrama de flujo">
+        <img class="image__slider active" src="../assets/img/mayordedadcounter.jpg" alt="diagrama de flujo">
+      </div>
+    </section>
+    <section>
+      <h2>Algoritmos con Switch</h2>
+      <p></p>
+    </section>
+    <section class="algoritmos__container">
+      <h3>1.- Calculadora del peso en diferentes planetas</h3>
+      <p>Con esta calculadora averiguarás cuanto pesarías en diferentes planetas del sistema solar. Solo ingresa tu peso
+        y elige el planeta que quieres calcular.</p>
+      <form id="pesoForm">
+        <label name="peso">
+          <span>Peso:</span>
+          <input type="number" name="peso" id="peso" min="1" placeholder="Peso en kg...">
+        </label>
+        <label name="planeta">
+          <span>Selecciona el Planeta:</span>
+          <select name="planeta" id="planeta">
+            <option value="Mercurio">Mercurio</option>
+            <option value="Venus">Venus</option>
+            <option value="Marte">Marte</option>
+            <option value="Jupiter">Jupiter</option>
+            <option value="Saturno">Saturno</option>
+            <option value="Urano">Urano</option>
+            <option value="Neptuno">Neptuno</option>
+            <option value="Pluton">Pluton</option>
+          </select>
+        </label>
+        <button class="button__form">Calcular</button>
+      </form>
+      <p id="pesoResult"></p>
+    </section>
+    <section class="algoritmo__container">
+      <h3>2.- Calculadora de area</h3>
+      <p>Con esta calculadora podrás saber el area de 4 diferentes poligonos, solo es cuestión de ingresar los valores
+        solicitados.</p>
+      <form id="poligonForm">
+        <label name="poligono">
+          <span>Poligono a elegir:</span>
+          <select name="poligono" id="poligono">
+            <option value="1">Cuadrado</option>
+            <option value="2">Rectangulo</option>
+            <option value="3">Circulo</option>
+            <option value="4">Triangulo Equilatero</option>
+          </select>
+          <button class="button__form">Seleccionar</button>
+        </label>
+      </form>
+      <div id="poligonResult"></div>
+    </section>
+    <section class="algoritmo__container">
+      <h3>3.- Conversor de pesos mexicanos a diferentes divisas</h3>
+      <p>Con este conversor sabrás como se encuentra posicionado actualemnte el peso mexicano(MXN). Solo selecciona la
+        divisa que quieres conocer y el monto que quieres convertir. </p>
+      <form id="divisasForm">
+        <label name="valor">
+          <span>Monto a convertir:</span>
+          <input value="1" min="1" type="number" name="valor" id="valor" placeholder="Ej: 100.23MXN">
+        </label>
+        <label name="divisa">
+          <span>Divisa:</span>
+          <select name="divisa" id="divisa">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="JPY">JPY</option>
+            <option value="GBP">GBP</option>
+            <option value="CNY">CNY</option>
+            <option value="INR">INR</option>
+            <option value="RUB">RUB</option>
+          </select>
+        </label>
+        <button class="button__form">Calcular</button>
+        <p id="divisaResult"></p>
+      </form>
+    </section>
+    <section class="algoritmo__container">
+      <h3>4.- Conversor de medidas a metros</h3>
+      <p>Para realizar la conversión, solamente elige entre lo que quieres convertir e ingresa el valor a convertir. </p>
+      <form id="metroForm">
+        <label name="medida">
+          <span>Medida a convertir:</span>
+          <select name="medida" id="medida">
+            <option value="1">Pulgada</option>
+            <option value="2">Pie</option>
+            <option value="3">Yarda</option>
+          </select>
+        </label>
+        <label name="medicion">
+          <span>Valor a convertir:</span>
+          <input type="number" min="1" name="medicion" id="medicion">
+        </label>
+        <button class="button__form">Calcular</button>
+      </form>
+      <p id="metroResult"></p>
+    </section>
+    <section class="algoritmo__container">
+      <h3>5.- Calculadora de formulas físicas (Movimiento Rectilíneo Uniforme)</h3>
+      <p>Para realizar las operaciones, elige lo que quieres obtener</p>
+      <form id="mruForm">
+        <label name="tipo">
+          <span>Selecciona la medida que quieres obtener:</span>
+          <select name="tipo" id="tipo">
+            <option value="velocidad">Velocidad</option>
+            <option value="tiempo">Tiempo</option>
+            <option value="distancia">Distancia</option>
+          </select>
+        </label>
+        <label name="velocidad">
+          <span>Velocidad en m/s:</span>
+          <input type="number" data-disabled="1" disabled min="0" id="velocidad"  name="velocidad">
+        </label>
+        <label name="tiempo">
+          <span>Tiempo en segundos:</span>
+          <input type="number" data-disabled="1" min="0" id="tiempo"  name="tiempo">
+        </label>
+        <label name="distancia">
+          <span>Distancia en metros:</span>
+          <input type="number" data-disabled="1" min="0" id="distancia"  name="tiempo">
+        </label>
+        <button class="button__form">Calcular</button>
+      </form>
+      <p id="mruResult"></p>
+    </section>
+  </main>
+</body>
+
+</html>
