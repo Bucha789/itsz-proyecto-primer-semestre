@@ -6,7 +6,7 @@ const info = [
     suceden de tal modo que la salida de una es la entrada de la siguiente y así sucesivamente hasta el fin del proceso.
   </p>
   <img src="../assets/img/diagrama1.gif" alt="Diagrama de flujo secuencial">
-  <a href="/">Ver ejemplos &#8250;</a>
+  <a href="./Pages/secuenciales/secuenciales.html">Ver ejemplos &#8250;</a>
 </div>
 `,
   `
@@ -16,7 +16,7 @@ const info = [
     con la ejecución del algoritmo. Si es necesario, existe el bloque SINO, en el cual se colocan las instrucciones que
     se ejecutaran cuando “no se cumpla la condición principal”</p>
   <img src="../assets/img/diagrama2.jpg" alt="Diagrama de flujo de algoritmo condicional">
-  <a href="/">Ver ejemplos &#8250;</a>
+  <a href="./Pages/condicionales/condicionales.html">Ver ejemplos &#8250;</a>
 </div>
 `,
   `
@@ -24,7 +24,7 @@ const info = [
   <h3>Algoritmos con Switch</h3>
   <p>Se evalúa la condición y si ésta se cumple se ejecuta un determinado grupo de instrucciones. En caso contrario se saltan dicho grupo de instrucciones.</p>
   <img src="../assets/img/diagrama3.png" alt="Diagrama de flujo de algoritmo switch">
-  <a href="/">Ver ejemplos &#8250;</a>
+  <a href="./Pages/switch/switch.html">Ver ejemplos &#8250;</a>
 </div>
 `,
   `
@@ -35,7 +35,7 @@ const info = [
   para la variable, el incremento o decremento de los valores de la variable y por último la
   comparación del valor de la variable con el fin del rango establecido</p>
   <img src="../assets/img/diagrama4.gif" alt="Diagrama de flujo de algoritmo ciclico For">
-  <a href="/">Ver ejemplos &#8250;</a>
+  <a href="./Pages/ciclo for/for.html">Ver ejemplos &#8250;</a>
 </div>
 `,
   `
@@ -46,7 +46,7 @@ const info = [
   sea VERDADERA, por lo tanto cuando la respuesta a la condición sea FALSA se
   continúa con la siguiente instrucción es decir sale del ciclo.</p>
   <img src="../assets/img/diagrama5.png" alt="Diagrama de flujo de algoritmo ciclico while">
-  <a href="/">Ver ejemplos &#8250;</a>
+  <a href="./Pages/ciclo while/while.html">Ver ejemplos &#8250;</a>
 </div>
 `,
 ];

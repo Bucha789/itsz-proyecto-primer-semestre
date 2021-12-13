@@ -67,8 +67,8 @@ document.querySelector("#potenForm").addEventListener("submit", (e) => {
   let cubo = number ** 3;
   let cuadrado = number ** 2;
   document.querySelector('#valorPotenciado').innerHTML = `
-    <p>El cuadrado del número que proporcionaste es de: ${cuadrado} </p>
-    <p>El cubo del número que proporcionaste es de: ${cubo} </p>
+    <p class="result">El cuadrado del número que proporcionaste es de: ${cuadrado} </p>
+    <p class="result">El cubo del número que proporcionaste es de: ${cubo} </p>
   `
 });
 

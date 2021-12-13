@@ -133,6 +133,7 @@ main .presentacion__container {
   margin: 0 auto;
   width: 100%;
   max-width: 1220px;
+  justify-content: center;
   display: grid;
   grid-template-columns: 220px 1fr;
   grid-template-rows: 100px 500px;
@@ -221,11 +222,14 @@ main .presentacion__container .info__container div div {
   animation-name: fade-in;
   animation-duration: .5s;
   animation-fill-mode: forwards;
-
 }
 main .presentacion__container .info__container div div h3 {
   font-size: 2.3rem;
   margin-bottom: 10px;
+}
+main .presentacion__container .info__container div div h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
 }
 main .presentacion__container .info__container div div span {
   font-weight: 300;
@@ -306,10 +310,13 @@ a:hover {
 
   /* media queries */
 @media (max-width: 1000px) {
+  main .images__container .carrousel__container .image__slider {
+  width: auto;
+  }
   .title__container h1 span {
     display: none;
   }
-
+  
   footer {
     flex-direction: column;
   }
@@ -335,7 +342,12 @@ a:hover {
   }
   main .presentacion__container {
     grid-template-columns: 375px;
-    grid-template-rows: 100px 41px 1fr;
+    grid-template-rows: 100px auto 1fr;
+  }
+  main .presentacion__container aside ul li button.active {
+    transition: .5s;
+    background-color: white;
+    border-radius: 40px 40px 0 0;
   }
   main .presentacion__container h2 {
     grid-column: 1 / 2;

@@ -26,111 +26,149 @@
       <h1>PFADP <span>El mejor sitio de algoritmos</span></h1>
     </div>
     <nav class="menu-desktop">
-      <a href="/">Porcentaje</a>
-      <a href="/">Celcius a °F</a>
-      <a href="/">Potencias</a>
-      <a href="/">Distancia</a>
-      <a href="/">Circulo</a>
+      <a href="#primero"><i class="fas fa-percentage"></i> Porcentaje</a>
+      <a href="#segundo"><i class="fas fa-temperature-high"></i> Celcius a °F</a>
+      <a href="#tercero"><i class="fas fa-superscript"></i> Potencias</a>
+      <a href="#cuarto"><i class="fas fa-ruler"></i> Distancia</a>
+      <a href="#quinto"><i class="far fa-circle"></i> Círculo</a>
     </nav>
     <nav class="menu-mobile">
       <img class="open" src="../../assets/img/menu-button-of-three-horizontal-lines.png" alt="">
       <img class="close" src="../../assets/img/close.png" alt="">
-    <ul class="mobile-options">
-      <li><a href="./Pages/secuenciales.html">Porcentaje</a></li>
-      <li><a href="/">Celcius a °F</a></li>
-      <li><a href="/">Potencias</a></li>
-      <li><a href="/">Distancia</a></li>
-      <li><a href="/">Circulo</a></li>
+    <ul class="mobile-options">      
+      <li><a href="#primero"><i class="fas fa-percentage"></i> Porcentaje</a></li>
+      <li><a href="#segundo"><i class="fas fa-temperature-high"></i> Celcius a °F</a></li>
+      <li><a href="#tercero"><i class="fas fa-superscript"></i> Potencias</a></li>
+      <li><a href="#cuarto"><i class="fas fa-ruler"></i> Distancia</a></li>
+      <li><a href="#quinto"><i class="far fa-circle"></i> Círculo</a></li>
     </ul>
     </nav>
   </header>
   <main>
     <section class="images__container">
       <div class="carrousel__container">
-        <img class="image__slider" src="../../assets/img/13percentdiscount.jpg" alt="diagrama de flujo">
-        <img class="image__slider" src="../../assets/img/productoscondescuento.jpg" alt="diagrama de flujo">
+        <img class="image__slider" src="../../assets/img/13percentdiscount.svg" alt="diagrama de flujo">
+        <img class="image__slider" src="../../assets/img/aprobadoono.svg" alt="diagrama de flujo">
         <img class="image__slider active" src="../../assets/img/mayordedadcounter.jpg" alt="diagrama de flujo">
       </div>
     </section>
-    <section>
+    <section class="info__container">
       <h2>Algoritmos secuenciales</h2>
-      <p></p>
+      <p>La estructura secuencial es aquella en la que una acción sigue a otra en secuencia. Las
+        operaciones se suceden de tal modo que la salida de una es la entrada de la siguiente y así
+        sucesivamente hasta el fin del proceso. La asignación de esto consiste, en el paso de valores o
+        resultados a una zona de la memoria. Dicha zona será reconocida con el nombre de la variable
+        que recibe el valor.</p>
+      <img src="./diagrama1.jpg" alt="ejemplo de algoritmo">
     </section>
-    <section class="algoritmo__container">
-      <h3>1.- Calculadora del porcentaje de cierta cantidad</h3>
-      <p>Con este algoritmo podrás saber el porcentaje del número que tu quieras. Solo es cuestión de introducir el valor al cual quieres sacar el porcentaje y que tanto de porcentaje quieres calcular.</p>
-      <form id="percentForm">
-        <label name="valor">
-          <span>Número:</span>
-          <input type="number" name="valor" min="1" id="valor" placeholder="Ejemplo: 1, 100">
-        </label>
-        <label name="porcentaje">
-          <span>Porcentaje:</span>
-          <input type="number" name="porcentaje" min="1" id="porcentaje" placeholder="Ejemplo: 100%">
-        </label>
-        <button class="buttton__form">Calcular</button>
+    <section class="grid__container">
+      <h2>Ejemplos</h2>
+      <!-- primer algoritmo -->
+      <article id="primero" class="algoritmo__container">
+        <h3>1.- Calculadora del porcentaje de cierta cantidad</h3>
+        <p>Con este algoritmo podrás saber el porcentaje del número que tu quieras. Solo es cuestión de introducir el valor al cual quieres sacar el porcentaje y que tanto de porcentaje quieres calcular.</p>
+        <form id="percentForm">
+          <label name="valor">
+            <span>Número:</span>
+            <input type="number" name="valor" min="1" id="valor" required placeholder="Ejemplo: 1, 100">
+          </label>
+          <label name="porcentaje">
+            <span>Porcentaje:</span>
+            <input type="number" name="porcentaje" min="1" id="porcentaje" required placeholder="Ejemplo: 100%">
+          </label>
+        <button class="button__form">Calcular</button>
       </form>
-      <p id="percentResult"></p>
-    </section>
-    <section class="algoritmo__container">
+      <p class="result" id="percentResult"></p>
+    </article>
+    <!-- segundo algoritmo -->
+    <article id="segundo" class="algoritmo__container">
       <h3>2.- Conversor de temperatura de grados celsius(C°) a farenheit(F°)</h3>
       <p>Ingresa el valor de tu temperatura para poder realizar la conversión</p>
       <form id="tempForm">
         <label name="temperatura">
           <span>Temperatura:</span>
-          <input type="number" name="temperatura" id="temp" placeholder="100 °C">
+          <input type="number" name="temperatura" id="temp" required placeholder="100 °C">
         </label>
         <button class="button__form">Calcular</button>
       </form>
-      <p id="tempResult"></p>
-    </section>
-    <section class="algoritmo__container">
+      <p class="result" id="tempResult"></p>
+    </article>
+    <!-- tercer algoritmo -->
+    <article id="tercero" class="algoritmo__container">
       <h3>3.- Calculadora de potencias 2 y 3</h3>
       <p>Con este algoritmo podrás saber a cuanto equivale la potencia de un número dado, siendo estas el elevado al cuadrado y el elevado al cubo</p>
       <form id="potenForm">
         <label name="numero">
           <span>Número a elevar:</span>
-          <input type="number" name="numero" id="potencia" placeholder="1,2,310">
+          <input type="number" name="numero" id="potencia" required placeholder="1,2,310">
         </label>
         <button class="button__form">Calcular</button>
         <div id="valorPotenciado"></div>
       </form>
-    </section>
-    <section class="algoritmo__container">
+    </article>
+    <!-- cuarto algoritmo -->
+    <article id="cuarto" class="algoritmo__container">
       <h3>4.- Calculadora de distancia entre dos puntos</h3>
       <p>Con esta calculadora podrás saber cual es la distancia entre dos puntos en el plano cartesiano. Solo necesitas ingresar los valores de las dos coordenanas como se te pide.</p>
       <form id="distForm">
         <label name="x1">
           <span>x<sup>1</sup></span>
-          <input data-name="coords" type="number" name="x1" id="x1">
+          <input data-name="coords" required type="number" name="x1" id="x1">
         </label>
         <label name="y1">
           <span>y<sup>1</sup></span>
-          <input data-name="coords" type="number" name="y1" id="y1">
+          <input data-name="coords" required type="number" name="y1" id="y1">
         </label>
         <label name="x2">
           <span>x<sup>2</sup></span>
-          <input data-name="coords" type="number" name="x2" id="x2">
+          <input data-name="coords" required type="number" name="x2" id="x2">
         </label>
         <label name="y2">
           <span>y<sup>2</sup></span>
-          <input data-name="coords" type="number" name="y2" id="y2">
+          <input data-name="coords" required type="number" name="y2" id="y2">
         </label>
         <button class="button__form">Calcular</button>
       </form>
-      <p id="distResult"></p>
-    </section>
-    <section class="algoritmo__container">
+      <p class="result" id="distResult"></p>
+    </article>
+    <!-- quinto algoritmo -->
+    <article id="quinto" class="algoritmo__container">
       <h3>5.- Calculadora del area de un círculo</h3>
       <p>Con esta calculadora sabrás el valor de area de determinado circulo nada más introduciendo el valor del radio.</p>
       <form id="circleForm">
         <label name="radio">
-          <input type="number" name="radio" id="radio" placeholder="Unidades">
+          <input type="number" name="radio" id="radio" required placeholder="Unidades">
         </label>
         <button class="button__form">Calcular</button>
       </form>
-      <p id="circleResult"></p>
-    </section>
+      <p class="result" id="circleResult"></p>
+    </article>
+  </section>
   </main>
+  <footer>
+    <div class="logo-footer__container">
+      <a href="https://zongolica.tecnm.mx/TecNM/">
+        <img src="../../assets/img/logo.png" alt="Logo de la universidad">
+      </a>
+    </div>
+    <div class="list__container">
+      <h2>Lista de algoritmos</h2>
+      <ul>
+        <li><a href="../secuenciales/secuenciales.html">Secuenciales</a></li>
+        <li><a href="../condicionales/condicionales.html">Condicionales</a></li>
+        <li><a href="../switch/switch.html">Switch</a></li>
+        <li><a href="../ciclo for/for.html">Ciclo For</a></li>
+        <li><a href="../ciclo while/while.html">Ciclo While</a></li>
+      </ul>
+    </div>
+    <div class="social__container">
+      <h2>Sobre mí</h2>
+      <ul>
+        <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+        <li><a href=""><i class="fab fa-instagram"></i> Instagram</a></li>
+        <li><a href=""><i class="fab fa-github"></i> Github</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
