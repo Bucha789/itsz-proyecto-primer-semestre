@@ -39,118 +39,157 @@
         <h1>PFADP <span>El mejor sitio de algoritmos</span></h1>
       </div>
       <nav class="menu-desktop">
-        <a href="/">Estacionamiento</a>
-        <a href="/">Supermercado</a>
-        <a href="/">Jubilación</a>
-        <a href="/">Aduanas</a>
-        <a href="/">Perimetros</a>
+        <a href="#primero"><i class="fas fa-car"></i> Estacionamiento</a>
+        <a href="#segundo"><i class="fas fa-shopping-basket"></i> Supermercado</a>
+        <a href="#tercero"><i class="fas fa-crutch"></i> Jubilación</a>
+        <a href="#cuarto"><i class="fas fa-plane-arrival"></i> Aduanas</a>
+        <a href="#quinto"><i class="fas fa-draw-polygon"></i> Perimetros</a>
       </nav>
       <nav class="menu-mobile">
-        <img class="open" src="../assets/img/menu-button-of-three-horizontal-lines.png" alt="">
-        <img class="close" src="../assets/img/close.png" alt="">
+        <img class="open" src="../../assets/img/menu-button-of-three-horizontal-lines.png" alt="">
+        <img class="close" src="../../assets/img/close.png" alt="">
         <ul class="mobile-options">
-          <li><a href="./Pages/secuenciales.html">Estacionamiento</a></li>
-          <li><a href="/">Supermercado</a></li>
-          <li><a href="/">Jubilación</a></li>
-          <li><a href="/">Aduanas</a></li>
-          <li><a href="/">Perimetros</a></li>
+          <li><a href="#primero"><i class="fas fa-car"></i> Estacionamiento</a></li>
+          <li><a href="#segundo"><i class="fas fa-shopping-basket"></i> Supermercado</a></li>
+          <li><a href="#tercero"><i class="fas fa-crutch"></i> Jubilación</a></li>
+          <li><a href="#cuarto"><i class="fas fa-plane-arrival"></i> Aduanas</a></li>
+          <li><a href="#quinto"><i class="fas fa-draw-polygon"></i> Perimetros</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="images__container">
         <div class="carrousel__container">
-          <img class="image__slider" src="../assets/img/13percentdiscount.jpg" alt="diagrama de flujo">
-          <img class="image__slider" src="../assets/img/productoscondescuento.jpg" alt="diagrama de flujo">
-          <img class="image__slider active" src="../assets/img/mayordedadcounter.jpg" alt="diagrama de flujo">
+          <img class="image__slider" src="../../assets/img/13percentdiscount.svg" alt="diagrama de flujo">
+          <img class="image__slider" src="../../assets/img/productoscondescuento.jpg" alt="diagrama de flujo">
+          <img class="image__slider active" src="../../assets/img/mayordedadcounter.jpg" alt="diagrama de flujo">
         </div>
       </section>
-      <section>
+      <section class="info__container">
         <h2>Algoritmos condicionales</h2>
-        <p></p>
+        <p>Las estructuras condicionales comparan una variable contra otro(s) valor(es), para que, en base al resultado
+          de esta comparación, se siga un curso de acción dentro del programa. Cabe mencionar que la comparación se
+          puede hacer contra otra variable o contra una constante, según se necesite. Existen dos tipos básicos, las
+          simples y las múltiples.</p>
+        <img src="./diagrama1.png" alt="diagrama 1">
       </section>
-      <section class="algoritmo__container">
-        <h3>1.- Calculadora del precio a pagar en un estacionamiento</h3>
-        <p>El estacionamiento cobra $15 pesos la hora o fracción, pero cuando el tiempo no pasa de 10 minutos después de
-          una nueva hora se cobrá una cantidad de $5 pesos.</p>
-        <p>Este algoritmo te hará saber cual sería tu tarifa final.</p>
-        <form id="estForm">
-          <label name="tiempo">
-            <span>Tiempo a quedarse:</span>
-            <input type="number" name="tiempo" min="1" id="tiempo" placeholder="Tiempo en minutos...">
-          </label>
-          <button class="button__form">Calcular</button>
-        </form>
-        <p id="estResult"></p>
-      </section>
-      <section class="algoritmo__container">
-        <h3>2.- Calculadora de precio final en un supermercado</h3>
-        <p>Si te llevas más del triple del producto contarás con un descuento al precio final del 15%. Si te llevas más
-          de 5 piezas del mismo producto tendrás un descuento del 20%</p>
-        <p>Usa la calculadora para saber que tanto estarías pagando al final.</p>
-        <form id="superForm">
-          <label name="precio">
-            <span>Precio del producto:</span>
-            <input type="number" min="1" name="precio" id="precio">
-          </label>
-          <label name="cantidad">
-            <span>Número de productos a llevar:</span>
-            <input type="number" min="1" name="cantidad" id="cantidad">
-          </label>
-          <button class="button__form">Calcular</button>
-        </form>
-        <p id="superResult"></p>
-      </section>
-      <section class="algoritmo__container">
-        <h3>3.- Calculadora de jubilación</h3>
-        <p>Con la edad y el sexo(género) el algoritmo le indicará si ya puede jubilarse.</p>
-        <p>Ingrese los valores solicitados para realizar el calculo</p>
-        <form id="jubiForm">
-          <label name="edad">
-            <span>Edad:</span>
-            <input type="number" min="1" name="edad" id="edad" placeholder="Edad en años...">
-          </label>
-          <label name="genero">
-            <span>Género:</span>
-            <span>H</span>
-            <input type="radio" name="genero" id="hombre" required>
-            <span>M</span>
-            <input type="radio" name="genero" id="mujer" required>
-          </label>
-          <button class="button__form">Calcular</button>
-        </form>
-        <p id="jubiResult"></p>
-      </section>
-      <section class="algoritmo__container">
-        <h3>4.- Calculadora de impuestos adanuales</h3>
-        <p>Si tu producto tiene un costo mayor a $1000 Dolares aplican impuestos. Conoce que tanto sería.</p>
-        <form id="aduanaForm">
-          <label name="p">
-            <span>Precio del producto en Pesos Mexicanos:</span>
-            <input type="number" min="1" name="p" id="p">
-          </label>
-          <button class="button__form">Calcular</button>
-        </form>
-        <p id="aduaResult"></p>
-      </section>
-      <section class="algoritmo__container">
-        <h3>5.- Calculadora del perimetro de los triangulos EQUILÁTERO, ISÓSCELES, O ESCALENO</h3>
-        <p>Elige sobre que tipo de triangulo quieres saber su perimetro e ingresa los valores pedidos.</p>
-        <form id="perimetroForm">
-          <label name="tipo">
-            <span>Selecciona tu tipo de triangulo</span>
-            <select name="tipo" id="type">
-              <option value="1">Equilatero</option>
-              <option value="2">Isosceles</option>
-              <option value="3">Escaleno</option>
-            </select>
-          </label>
-          <button class="button__form">Elegir</button>
-        </form>
-        <div id="formSelected"></div>
-        <p id="periResult"></p>
+      <section class="grid__container">
+        <h2>Ejemplos</h2>
+        <article id="primero" class="algoritmo__container">
+          <!-- primer algoritmo -->
+          <h3>1.- Calculadora del precio a pagar en un estacionamiento</h3>
+          <p>El estacionamiento cobra $15 pesos la hora o fracción, pero cuando el tiempo no pasa de 10 minutos después
+            de
+            una nueva hora se cobrá una cantidad de $5 pesos.</p>
+          <p>Este algoritmo te hará saber cual sería tu tarifa final.</p>
+          <form id="estForm">
+            <label name="tiempo">
+              <span>Tiempo a quedarse:</span>
+              <input required type="number" name="tiempo" min="1" id="tiempo" placeholder="Tiempo en minutos...">
+            </label>
+            <button class="button__form">Calcular</button>
+          </form>
+          <p class="result" id="estResult"></p>
+        </article>
+        <!-- segundo algoritmo -->
+        <article id="segundo" class="algoritmo__container">
+          <h3>2.- Calculadora de precio final en un supermercado</h3>
+          <p>Si te llevas más del triple del producto contarás con un descuento al precio final del 15%. Si te llevas
+            más
+            de 5 piezas del mismo producto tendrás un descuento del 20%</p>
+          <p>Usa la calculadora para saber que tanto estarías pagando al final.</p>
+          <form id="superForm">
+            <label name="precio">
+              <span>Precio del producto:</span>
+              <input type="text" min="1" name="precio" placeholder="Ejemplo: 15.99" id="precio">
+            </label>
+            <label name="cantidad">
+              <span>Número de productos a llevar:</span>
+              <input required type="number" min="1" name="cantidad" placeholder="unidades" id="cantidad">
+            </label>
+            <button class="button__form">Calcular</button>
+          </form>
+          <p class="result" id="superResult"></p>
+        </article>
+        <!-- tercer algoritmo -->
+        <article id="tercero" class="algoritmo__container">
+          <h3>3.- Calculadora de jubilación</h3>
+          <p>Con la edad y el sexo(género) el algoritmo le indicará si ya puede jubilarse.</p>
+          <p>Ingrese los valores solicitados para realizar el calculo</p>
+          <form id="jubiForm">
+            <label name="edad">
+              <span>Edad:</span>
+              <input required type="number" min="1" name="edad" id="edad" placeholder="Edad en años...">
+            </label>
+            <label name="genero">
+              <span>Género:</span>
+              <span>H</span>
+              <input required type="radio" name="genero" id="hombre">
+              <span>M</span>
+              <input required type="radio" name="genero" id="mujer">
+            </label>
+            <button class="button__form">Calcular</button>
+          </form>
+          <p class="result" id="jubiResult"></p>
+        </article>
+          <!-- cuarto algoritmo -->
+        <article id="cuarto" class="algoritmo__container">
+          <h3>4.- Calculadora de impuestos adanuales</h3>
+          <p>Si tu producto tiene un costo mayor a $1000 Dólares Estadounidenses(USD) aplican impuestos. Conoce que tanto sería.</p>
+          <form id="aduanaForm">
+            <label name="p">
+              <span>Precio del producto en Pesos Mexicanos:</span>
+              <input required type="text" name="p" placeholder="Ejemplo: 99.99" id="p">
+            </label>
+            <button class="button__form">Calcular</button>
+          </form>
+          <p class="result" id="aduaResult"></p>
+        </article>
+          <!-- quinto algoritmos -->
+        <article id="quinto" class="algoritmo__container">
+          <h3>5.- Calculadora del perimetro de los triangulos EQUILÁTERO, ISÓSCELES, O ESCALENO</h3>
+          <p>Elige sobre que tipo de triangulo quieres saber su perimetro e ingresa los valores pedidos.</p>
+          <form id="perimetroForm">
+            <label name="tipo">
+              <span>Selecciona tu tipo de triangulo</span>
+              <select name="tipo" id="type">
+                <option value="1">Equilatero</option>
+                <option value="2">Isosceles</option>
+                <option value="3">Escaleno</option>
+              </select>
+            </label>
+            <button class="button__form">Elegir</button>
+          </form>
+          <div id="formSelected"></div>
+          <p class="result" id="periResult"></p>
+        </article>
       </section>
     </main>
+    <footer>
+      <div class="logo-footer__container">
+        <a href="https://zongolica.tecnm.mx/TecNM/">
+          <img src="../../assets/img/logo.png" alt="Logo de la universidad">
+        </a>
+      </div>
+      <div class="list__container">
+        <h2>Lista de algoritmos</h2>
+        <ul>
+          <li><a href="../secuenciales/secuenciales.html">Secuenciales</a></li>
+          <li><a href="../condicionales/condicionales.html">Condicionales</a></li>
+          <li><a href="../switch/switch.html">Switch</a></li>
+          <li><a href="../ciclo for/for.html">Ciclo For</a></li>
+          <li><a href="../ciclo while/while.html">Ciclo While</a></li>
+        </ul>
+      </div>
+      <div class="social__container">
+        <h2>Sobre mí</h2>
+        <ul>
+          <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+          <li><a href=""><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a href=""><i class="fab fa-github"></i> Github</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 
   </html>

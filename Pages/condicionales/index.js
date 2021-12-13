@@ -120,26 +120,25 @@ document.querySelector('#perimetroForm').addEventListener('submit', e => {
   e.preventDefault();
   let typeTrian = Number(document.querySelector('#type').value);
   let div = document.querySelector('#formSelected');
-  
   if (typeTrian === 1) {
     div.innerHTML = `
     <p>Has elegido el triangulo equilatero. Por favor proporciona el valor de un lado del triangulo para poder calcular su perimetro:</p>
-    <input type="number" id="pe" placeholder="Lado...">
+    <input class="input" type="number" id="pe" placeholder="Lado...">
     <button class="button__form" onclick="perimetroEquilatero()">Calcular</button>
     `
   } else if (typeTrian === 2) {
     div.innerHTML = `
     <p>Has elegido el triangulo isosceles. Por favor proporciona el valor de un lado del triangulo y de la base para poder calcular su perimetro:</p>
-    <input type="number" id="pi" placeholder="Lado...">
-    <input type="number" id="pib" placeholder="Base...">
+    <input class="input" type="number" id="pi" placeholder="Lado...">
+    <input class="input" type="number" id="pib" placeholder="Base...">
     <button class="button__form" onclick="perimetroIsosceles()">Calcular</button>
     `
   } else if (typeTrian === 3) {
     div.innerHTML = `
     <p>Has elegido el triangulo isosceles. Por favor proporciona el valor de un lado del triangulo y de la base para poder calcular su perimetro:</p>
-    <input type="number" id="pe1" placeholder="Lado 1...">
-    <input type="number" id="pe2" placeholder="Lado 2...">
-    <input type="number" id="pe3" placeholder="Lado 3...">
+    <input class="input" type="number" id="pe1" placeholder="Lado 1...">
+    <input class="input" type="number" id="pe2" placeholder="Lado 2...">
+    <input class="input" type="number" id="pe3" placeholder="Lado 3...">
     <button class="button__form" onclick="perimetroEscaleno()">Calcular</button>
     `
   }
