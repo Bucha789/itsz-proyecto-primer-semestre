@@ -79,9 +79,11 @@ document.querySelector("#pesoForm").addEventListener("submit", (e) => {
 
   document.querySelector(
     "#pesoResult"
-  ).innerHTML = `En ${planeta} pesarías aproximadamente ${pesoEnPlaneta.toFixed(
+  ).innerHTML = `<p class="result">En ${planeta} pesarías aproximadamente ${pesoEnPlaneta.toFixed(
     2
-  )}kg.`;
+  )}kg.</p>
+   <img src="${planeta}.png" alt="${planeta}" />
+  `;
 });
 //Segundo algoritmo
 document.querySelector("#poligonForm").addEventListener("submit", (e) => {
@@ -92,72 +94,86 @@ document.querySelector("#poligonForm").addEventListener("submit", (e) => {
     case "1":
       div.innerHTML = ` 
         <h3>Area de un Cuadrado</h3>
+        <img width="200px" src="./cuadrado.png" alt="cuadrado"/>
         <p>Por favor, ingresa la medida de un lado del cuadrado para poder hacer el calculo.</p>
         <span>Lado:</span>
-        <input type="number" id="cuadrado" />
-        <button onclick="areaCuadrado()">Saber</button>
-        <p id="cuaResult"></p>
+        <input class="input" type="text" id="cuadrado" />
+        <button class="button__form" onclick="areaCuadrado()">Saber</button>
+        <p class="result" id="cuaResult"></p>
         `;
       break;
     case "2":
       div.innerHTML = `
           <h3>Area de un Rectangulo</h3>
+          <img width="200px" src="./rectangulo.png" alt="rectangulo"/>
           <p>Por favor, ingresa la medida de la base y altura del rectangulo para poder hacer el calculo.</p>
           <span>Base:</span>
-          <input type="number" id="baseRec" />
+          <input class="input" type="number" id="baseRec" />
           <span>Altura:</span>
-          <input type="number" id="altuRec" />
-          <button onclick="areaRectangulo()">Saber</button>
-          <p id="recResult"></p>
+          <input class="input" type="text" id="altuRec" />
+          <button class="button__form" onclick="areaRectangulo()">Saber</button>
+          <p class="result" id="recResult"></p>
           `;
       break;
     case "3":
       div.innerHTML = `
-        <h3>Area de un Circulo</h3>
-        <p>Por favor, ingresa la medida de un lado del cuadrado para poder hacer el calculo.</p>
-        <span>Radio:</span>
-        <input type="number" id="radio" />
-        <button onclick="areaCirculo()">Saber</button>
-        <p id="cirResult"></p>
-        `;
-      break;
+            <h3>Area de un Circulo</h3>
+            <img width="200px" src="./circulo.png" alt="circulo"/>
+            <p>Por favor, ingresa el radio del circulo para poder hacer el calculo.</p>
+            <span>Radio:</span>
+            <input class="input" type="text" id="radio" />
+            <button class="button__form" onclick="areaCirculo()">Saber</button>
+            <p class="result" id="cirResult"></p>
+            `;
+            break;
     case "4":
       div.innerHTML = `
-        <h3>Area de un Triangulo Equilatero</h3>
+      <h3>Area de un Triangulo Equilatero</h3>
+      <img width="200px" src="./triangulo.png" alt="triangulo"/>
         <p>Por favor, ingresa la medida de un lado del Triangulo para poder hacer el calculo.</p>
         <span>Lado:</span>
-        <input type="number" id="triangulo" />
-        <button onclick="areaTriangulo()">Saber</button>
-        <p id="trianResult"></p>
+        <input class="input" type="number" id="triangulo" />
+        <button class="button__form" onclick="areaTriangulo()">Saber</button>
+        <p class="result" id="trianResult"></p>
         `;
       break;
     default:
-      div.innerHTML = 'Ha ocurrido algo jaja...'
+      div.innerHTML = "Ha ocurrido algo jaja...";
   }
 });
 function areaCuadrado() {
-  let value = Number(document.querySelector('#cuadrado').value);
+  let value = Number(document.querySelector("#cuadrado").value);
   let area = value * value;
-  document.querySelector('#cuaResult').innerHTML = `El valor del area del Cuadrado es de: ${area.toFixed(2)} u².`
+  document.querySelector(
+    "#cuaResult"
+  ).innerHTML = `El valor del area del Cuadrado es de: ${area.toFixed(2)} u².`;
 }
 const areaRectangulo = () => {
-  let base = Number(document.querySelector('#baseRec').value);
-  let altura = Number(document.querySelector('#altuRec').value);
+  let base = Number(document.querySelector("#baseRec").value);
+  let altura = Number(document.querySelector("#altuRec").value);
   let area = base * altura;
-  document.querySelector('#recResult').innerHTML = `El valor del area del Rectangulo es de: ${area.toFixed(2)} u².`
-}
+  document.querySelector(
+    "#recResult"
+  ).innerHTML = `El valor del area del Rectangulo es de: ${area.toFixed(
+    2
+  )} u².`;
+};
 
 function areaCirculo() {
-  let value = Number(document.querySelector('#radio').value);
-  let area = Math.PI * (value ** 2);
-  document.querySelector('#cirResult').innerHTML = `El valor del area del Círculo es de: ${area.toFixed(2)} u².`
+  let value = Number(document.querySelector("#radio").value);
+  let area = Math.PI * value ** 2;
+  document.querySelector(
+    "#cirResult"
+  ).innerHTML = `El valor del area del Círculo es de: ${area.toFixed(2)} u².`;
 }
 
 const areaTriangulo = () => {
-  let base = Number(document.querySelector('#triangulo').value);
+  let base = Number(document.querySelector("#triangulo").value);
   let area = (base * base) / 2;
-  document.querySelector('#trianResult').innerHTML = `El valor del area del Triangulo es de: ${area.toFixed(2)} u².`
-}
+  document.querySelector(
+    "#trianResult"
+  ).innerHTML = `El valor del area del Triangulo es de: ${area.toFixed(2)} u².`;
+};
 
 //Tercer algoritmo
 document.querySelector("#divisasForm").addEventListener("submit", async (e) => {
@@ -168,7 +184,7 @@ document.querySelector("#divisasForm").addEventListener("submit", async (e) => {
   let res = amount * currencieData.value;
   document.querySelector(
     "#divisaResult"
-  ).innerHTML = `El valor es: $${res.toFixed(2)}MXN. Actualizado a: <span>${
+  ).innerHTML = `El valor es: $${res.toFixed(2)}MXN. Actualizado el: <span>${
     currencieData.date
   } </span>`;
 });

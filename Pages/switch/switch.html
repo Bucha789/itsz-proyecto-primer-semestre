@@ -28,39 +28,40 @@
       <h1>PFADP <span>El mejor sitio de algoritmos</span></h1>
     </div>
     <nav class="menu-desktop">
-      <a href="/">Areas</a>
-      <a href="/">Peso Planetas</a>
-      <a href="/">Divisas</a>
-      <a href="/">Medidas escalares</a>
-      <a href="/">Boletos</a>
+      <a href="#primero"><i class="fas fa-map"></i> Areas</a>
+      <a href="#segundo"><i class="fas fa-meteor"></i> Peso Planetas</a>
+      <a href="#tercero"><i class="fas fa-coins"></i> Divisas</a>
+      <a href="#cuarto"><i class="fas fa-pencil-ruler"></i> Medidas escalares</a>
+      <a href="#quinto"><i class="fas fa-clock"></i> MRU</a>
     </nav>
     <nav class="menu-mobile">
       <img class="open" src="../assets/img/menu-button-of-three-horizontal-lines.png" alt="">
       <img class="close" src="../assets/img/close.png" alt="">
       <ul class="mobile-options">
-        <li><a href="/">Areas</a></li>
-        <li><a href="/">Peso Planetas</a></li>
-        <li><a href="/">Divisas</a></li>
-        <li><a href="/">Medidas Escalares</a></li>
-        <li><a href="./Pages/secuenciales.html">Boletos</a></li>
+        <li><a href="#primero"><i class="fas fa-map"></i> Areas</a></li>
+        <li><a href="#segundo"><i class="fas fa-meteor"></i> Peso Planetas</a></li>
+        <li><a href="#tercero"><i class="fas fa-coins"></i> Divisas</a></li>
+        <li><a href="#cuarto"><i class="fas fa-pencil-ruler"></i> Medidas escalares</a></li>
+        <li><a href="#quinto"><i class="fas fa-clock"></i> MRU</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <section class="images__container">
       <div class="carrousel__container">
-        <img class="image__slider" src="../assets/img/13percentdiscount.jpg" alt="diagrama de flujo">
+        <img class="image__slider" src="../../assets/img/13percentdiscount.svg" alt="diagrama de flujo">
         <img class="image__slider" src="../assets/img/productoscondescuento.jpg" alt="diagrama de flujo">
         <img class="image__slider active" src="../assets/img/mayordedadcounter.jpg" alt="diagrama de flujo">
       </div>
     </section>
-    <section>
+    <section class="info__container">
       <h2>Algoritmos con Switch</h2>
       <p></p>
     </section>
     <section class="grid__container">
-
-      <article class="algoritmos__container">
+      <h2>Ejemplos</h2>
+      <!-- primer algoritmo -->
+      <article id="primero" class="algoritmo__container">
         <h3>1.- Calculadora del peso en diferentes planetas</h3>
         <p>Con esta calculadora averiguarás cuanto pesarías en diferentes planetas del sistema solar. Solo ingresa tu
           peso
@@ -68,7 +69,7 @@
         <form id="pesoForm">
           <label name="peso">
             <span>Peso:</span>
-            <input type="number" name="peso" id="peso" min="1" placeholder="Peso en kg...">
+            <input type="text" name="peso" id="peso" required placeholder="Peso en kg...">
           </label>
           <label name="planeta">
             <span>Selecciona el Planeta:</span>
@@ -85,9 +86,10 @@
           </label>
           <button class="button__form">Calcular</button>
         </form>
-        <p id="pesoResult"></p>
+        <div id="pesoResult"></div>
       </article>
-      <article class="algoritmo__container">
+      <!-- segundo algoritmo -->
+      <article id="segundo" class="algoritmo__container">
         <h3>2.- Calculadora de area</h3>
         <p>Con esta calculadora podrás saber el area de 4 diferentes poligonos, solo es cuestión de ingresar los valores
           solicitados.</p>
@@ -100,19 +102,20 @@
               <option value="3">Circulo</option>
               <option value="4">Triangulo Equilatero</option>
             </select>
-            <button class="button__form">Seleccionar</button>
           </label>
+          <button class="button__form">Seleccionar</button>
         </form>
         <div id="poligonResult"></div>
       </article>
-      <article class="algoritmo__container">
+      <!-- tercer algoritmo -->
+      <article id="tercero" class="algoritmo__container">
         <h3>3.- Conversor de pesos mexicanos a diferentes divisas</h3>
         <p>Con este conversor sabrás como se encuentra posicionado actualemnte el peso mexicano(MXN). Solo selecciona la
           divisa que quieres conocer y el monto que quieres convertir. </p>
         <form id="divisasForm">
           <label name="valor">
             <span>Monto a convertir:</span>
-            <input value="1" min="1" type="number" name="valor" id="valor" placeholder="Ej: 100.23MXN">
+            <input value="1" type="text" name="valor" id="valor" required placeholder="Ej: 100.23MXN">
           </label>
           <label name="divisa">
             <span>Divisa:</span>
@@ -127,10 +130,11 @@
             </select>
           </label>
           <button class="button__form">Calcular</button>
-          <p id="divisaResult"></p>
         </form>
+        <p class="result" id="divisaResult"></p>
       </article>
-      <article class="algoritmo__container">
+      <!-- cuarto algoritmo -->
+      <article id="cuarto" class="algoritmo__container">
         <h3>4.- Conversor de medidas a metros</h3>
         <p>Para realizar la conversión, solamente elige entre lo que quieres convertir e ingresa el valor a convertir.
         </p>
@@ -145,13 +149,14 @@
           </label>
           <label name="medicion">
             <span>Valor a convertir:</span>
-            <input type="number" min="1" name="medicion" id="medicion">
+            <input type="text" placeholder="En metros..." required name="medicion" id="medicion">
           </label>
           <button class="button__form">Calcular</button>
         </form>
-        <p id="metroResult"></p>
+        <p class="result" id="metroResult"></p>
       </article>
-      <article class="algoritmo__container">
+      <!-- quinto algoritmo -->
+      <article id="quinto" class="algoritmo__container">
         <h3>5.- Calculadora de formulas físicas (Movimiento Rectilíneo Uniforme)</h3>
         <p>Para realizar las operaciones, elige lo que quieres obtener</p>
         <form id="mruForm">
@@ -165,22 +170,47 @@
           </label>
           <label name="velocidad">
             <span>Velocidad en m/s:</span>
-            <input type="number" data-disabled="1" disabled min="0" id="velocidad" name="velocidad">
+            <input type="text" required data-disabled="1" disabled placeholder="Ejemplo: 5" id="velocidad" name="velocidad">
           </label>
           <label name="tiempo">
             <span>Tiempo en segundos:</span>
-            <input type="number" data-disabled="1" min="0" id="tiempo" name="tiempo">
+            <input type="text" required data-disabled="1" id="tiempo" placeholder="Ejemplo: 6" name="tiempo">
           </label>
           <label name="distancia">
             <span>Distancia en metros:</span>
-            <input type="number" data-disabled="1" min="0" id="distancia" name="tiempo">
+            <input type="text" required data-disabled="1" id="distancia" placeholder="Ejemplo: 7" name="tiempo">
           </label>
           <button class="button__form">Calcular</button>
         </form>
-        <p id="mruResult"></p>
+        <p class="result" id="mruResult"></p>
       </article>
     </section>
   </main>
+  <footer>
+    <div class="logo-footer__container">
+      <a href="https://zongolica.tecnm.mx/TecNM/">
+        <img src="../../assets/img/logo.png" alt="Logo de la universidad">
+      </a>
+    </div>
+    <div class="list__container">
+      <h2>Lista de algoritmos</h2>
+      <ul>
+        <li><a href="../secuenciales/secuenciales.html">Secuenciales</a></li>
+        <li><a href="../condicionales/condicionales.html">Condicionales</a></li>
+        <li><a href="../switch/switch.html">Switch</a></li>
+        <li><a href="../ciclo for/for.html">Ciclo For</a></li>
+        <li><a href="../ciclo while/while.html">Ciclo While</a></li>
+      </ul>
+    </div>
+    <div class="social__container">
+      <h2>Sobre mí</h2>
+      <ul>
+        <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+        <li><a href=""><i class="fab fa-instagram"></i> Instagram</a></li>
+        <li><a href=""><i class="fab fa-github"></i> Github</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 
 </html>
