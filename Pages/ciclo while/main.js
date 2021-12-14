@@ -95,9 +95,9 @@ document.querySelector("#repForm").addEventListener("submit", (e) => {
     x++;
   }
   document.querySelector("#repResults").innerHTML = `
-  <p>Los datos han sido capturados</p>
-  <p>Da click en el botón para iniciar el analisis.</p>
-  <button onclick="getInformation()" class="button__form">Iniciar</button>
+  <p class="success">¡¡Los datos han sido capturados!!</p>
+  <p class="result">Da click en el botón para iniciar el analisis.</p>
+  <button onclick="getInformation()" class="button__form button__success">Iniciar</button>
   `;
   data = {
     calificacionMinima,

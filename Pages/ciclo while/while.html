@@ -26,21 +26,21 @@
       <h1>PFADP <span>El mejor sitio de algoritmos</span></h1>
     </div>
     <nav class="menu-desktop">
-      <a href="/">Porcentaje</a>
-      <a href="/">Celcius a °F</a>
-      <a href="/">Potencias</a>
-      <a href="/">Distancia</a>
-      <a href="/">Circulo</a>
+      <a href="#primero"><i class="fas fa-superscript"></i> Potencia N</a>
+      <a href="#segundo"><i class="fas fa-sort-amount-up"></i> Min y Max</a>
+      <a href="#tercero"><i class="fas fa-graduation-cap"></i> Reprobados</a>
+      <a href="#cuarto"><i class="fas fa-print"></i> Imprimir</a>
+      <a href="#quinto"><i class="fas fa-clipboard-list"></i> Mensajes</a>
     </nav>
     <nav class="menu-mobile">
       <img class="open" src="../../assets/img/menu-button-of-three-horizontal-lines.png" alt="">
       <img class="close" src="../../assets/img/close.png" alt="">
     <ul class="mobile-options">
-      <li><a href="./Pages/secuenciales.html">Porcentaje</a></li>
-      <li><a href="/">Celcius a °F</a></li>
-      <li><a href="/">Potencias</a></li>
-      <li><a href="/">Distancia</a></li>
-      <li><a href="/">Circulo</a></li>
+      <li><a href="#primero"><i class="fas fa-superscript"></i> Potencia N</a></li>
+      <li><a href="#segundo"><i class="fas fa-sort-amount-up"></i> Min y Max</a></li>
+      <li><a href="#tercero"><i class="fas fa-graduation-cap"></i> Reprobados</a></li>
+      <li><a href="#cuarto"><i class="fas fa-print"></i> Imprimir</a></li>
+      <li><a href="#quinto"><i class="fas fa-clipboard-list"></i> Mensajes</a></li>
     </ul>
     </nav>
   </header>
@@ -52,23 +52,34 @@
         <img class="image__slider active" src="../../assets/img/mayordedadcounter.jpg" alt="diagrama de flujo">
       </div>
     </section>
-    <section class="algoritmo__container">
-      <h3>1.- Elevar un número a cierta potencia.</h3>
-      <p>Por favor ingresa el número y el valor de la potencia al cual quieres elevar ese número.</p>
-      <form id="powForm">
-        <label name="numero">
+    <section class="info__container">
+      <h2>Algoritmos con ciclo While</h2>
+      <p>Permite implementar la repetición de un mismo conjunto de instrucciones mientras que se verifique
+        una determinada condición: el número de veces que se repetirá el ciclo no está definido a priori.
+        </p>
+      <img src="./diagrama1.png" alt="">
+    </section>
+    <section class="grid__container">
+      <h2>Ejemplos</h2>
+      <!-- primer algoritmo -->
+      <article id="primero" class="algoritmo__container">
+        <h3>1.- Elevar un número a cierta potencia.</h3>
+        <p>Por favor ingresa el número y el valor de la potencia al cual quieres elevar ese número.</p>
+        <form id="powForm">
+          <label name="numero">
         <span>Número:</span>
         <input type="number" min="1" name="numero" id="numero">
-        </label>
+      </label>
         <label name="potencia">
-        <span>Potencia:</span>
-        <input type="number" min="1" name="potencia" id="potencia">
+          <span>Potencia:</span>
+          <input type="number" min="1" name="potencia" id="potencia">
         </label>
         <button class="button__form">Calcular</button>
       </form>
-      <p id="powResult"></p>
-    </section>
-    <section class="algoritmo__container">
+      <p class="result" id="powResult"></p>
+    </article>
+      <!-- segundo algoritmo -->
+    <article id="segundo" class="algoritmo__container">
       <h3>2.- El número más grande y el menor de n números dados</h3>
       <p>Para ingresar los valores a comparar ingresa una coma despues de ellos.</p>
       <form id="rangeForm">
@@ -78,9 +89,10 @@
         </label>
         <button class="button__form">Calcular</button>
       </form>
-      <p id="rangeResult"></p>
-    </section>
-    <section class="algoritmo__container">
+      <p class="result" id="rangeResult"></p>
+    </article>
+      <!-- tercer algoritmo -->
+    <article id="tercero" class="algoritmo__container">
       <h3>3.- Calculadora de reprobados</h3>
       <p>Esta calculadora te ayudará como profesor a conocer cuantos alumnos han sido aprobados, ingresa los datos para saber más y empezar con el registro.</p>
       <p>Ingresa el número de datos a recolectar y el porcentaje minimo de aprobación.</p>
@@ -91,26 +103,28 @@
         </label>
         <label name="aprobacion">
           <span>Calificación mínima de aprobación:</span>
-          <input type="number" name="aprobacion" id="aprobacion">
+          <input type="number" name="aprobacion" placeholder="Porcentaje o número..." id="aprobacion">
         </label>
         <button class="button__form">Capturar</button>
       </form>
       <div id="repResults">
       </div>
-    </section>
-    <section class="algoritmo__container">
+    </article>
+      <!-- cuarto algoritmo -->
+    <article id="cuarto" class="algoritmo__container">
       <h3>4.- Contador de números pares </h3>
       <p>Este algoritmo te mostrará en pantalla los números que son pares hasta el número que tu hayas ingresado.</p>
       <form id="parForm">
         <label name="numero">
           <span>Contar hasta el número:</span>
-          <input type="number" name="numero" id="numeroPar">
+          <input type="number" name="numero" placeholder="Ejemplo: 2,3,10" id="numeroPar">
         </label>
         <button class="button__form">Calcular</button>
       </form>
       <div id="parResults"></div>
-    </section>
-    <section class="algoritmo__container">
+    </article>
+      <!-- quinto algoritmo -->
+    <article id="quinto" class="algoritmo__container">
       <h3>5.- Imprimir un mensaje cierto número de veces</h3>
       <p>Simplemente lo que quieras imprimir para copiarlo las veces que quieras.</p>
       <form id="ultimoForm">
@@ -125,7 +139,33 @@
         <button class="button__form">Generar</button>
       </form>
       <div id="ultimoResults"></div>
-    </section>
+    </article>
+  </section>
   </main>
+  <footer>
+    <div class="logo-footer__container">
+      <a href="https://zongolica.tecnm.mx/TecNM/">
+        <img src="../../assets/img/logo.png" alt="Logo de la universidad">
+      </a>
+    </div>
+    <div class="list__container">
+      <h2>Lista de algoritmos</h2>
+      <ul>
+        <li><a href="../secuenciales/secuenciales.html">Secuenciales</a></li>
+        <li><a href="../condicionales/condicionales.html">Condicionales</a></li>
+        <li><a href="../switch/switch.html">Switch</a></li>
+        <li><a href="../ciclo for/for.html">Ciclo For</a></li>
+        <li><a href="../ciclo while/while.html">Ciclo While</a></li>
+      </ul>
+    </div>
+    <div class="social__container">
+      <h2>Sobre mí</h2>
+      <ul>
+        <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+        <li><a href=""><i class="fab fa-instagram"></i> Instagram</a></li>
+        <li><a href=""><i class="fab fa-github"></i> Github</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
