@@ -147,19 +147,19 @@ document.querySelector('#perimetroForm').addEventListener('submit', e => {
 function perimetroEquilatero() {
   let h = Number(document.querySelector('#pe').value);
   let perimetro = h * 3;
-  document.querySelector('#periResult').innerHTML = `El valor del perimetro es de: ${perimetro} u².`
+  document.querySelector('#periResult').innerHTML = `El valor del perimetro es de: ${perimetro} u.`
 }
 
 function perimetroIsosceles() {
   let h = Number(document.querySelector('#pi').value);
   let b = Number(document.querySelector('#pib').value);
   let perimetro = 2 * h + b;
-  document.querySelector('#periResult').innerHTML = `El valor del perimetro es de: ${perimetro} u².`
+  document.querySelector('#periResult').innerHTML = `El valor del perimetro es de: ${perimetro} u.`
 }
 function perimetroEscaleno() {
   let l1 = Number(document.querySelector('#pe1').value);
   let l2 = Number(document.querySelector('#pe2').value);
   let l3 = Number(document.querySelector('#pe3').value);
   let perimetro = l1 + l2 + l3;
-  document.querySelector('#periResult').innerHTML = `El valor del perimetro es de: ${perimetro} u².`
+  document.querySelector('#periResult').innerHTML = `El valor del perimetro es de: ${perimetro} u.`
 }
