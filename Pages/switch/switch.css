@@ -305,6 +305,12 @@ a:hover {
     flex-direction: column;
     margin: 20px 0;
   }
+  main .images__container .carrousel__container .image__slider {
+    width: auto;
+  }
+  main .info__container img {
+    width: 100%;
+  }
   main .presentacion__container {
     grid-template-columns: 375px;
     grid-template-rows: 100px 41px 1fr;

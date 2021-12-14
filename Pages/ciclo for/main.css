@@ -301,6 +301,9 @@ a:hover {
     margin: 20px 0;
     width: 95%;
   }
+  main .images__container .carrousel__container .image__slider {
+    width: auto;
+  }
   footer ul {
     flex-direction: column;
     margin: 20px 0;

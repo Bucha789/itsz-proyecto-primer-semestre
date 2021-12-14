@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generado por Microsoft Visio, SVG Export beca.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="8.26772in" height="11.6929in"
+		viewBox="0 0 595.276 841.89" xml:space="preserve" color-interpolation-filters="sRGB" class="st12">
+	<v:documentProperties v:langID="3082" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(0):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#b1dff5;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st2 {fill:#d80073;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st3 {fill:#ffffff;font-family:Segoe UI;font-size:0.666664em}
+		.st4 {fill:#339933;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st5 {font-size:1em}
+		.st6 {fill:#f09609;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st7 {marker-end:url(#mrkr4-43);stroke:#1998d6;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st8 {fill:#1998d6;fill-opacity:1;stroke:#1998d6;stroke-opacity:1;stroke-width:0.16556291390728}
+		.st9 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st10 {fill:#1076a7;font-family:Segoe UI;font-size:0.666664em}
+		.st11 {fill:#ffffff;stroke:none;stroke-linecap:butt}
+		.st12 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-43" class="st8" v:arrowType="4" v:arrowSize="2" v:setback="12.08" refX="-12.08" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-6.04,-6.04) "/>
+		</marker>
+	</defs>
+	<g v:mID="4" v:index="1" v:groupContext="backgroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvVisioCreated" v:prompt="" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>FondoDeVisio-1</title>
+		<v:pageProperties width="8.26772" height="11.6929" v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24"
+				v:shadowOffsetX="8.50394" v:shadowOffsetY="-8.50394"/>
+		<g id="shape1000-1" v:mID="1000" v:groupContext="shape">
+			<title>Sólido.1000</title>
+			<v:userDefs>
+				<v:ud v:nameU="Background" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(DoNotContain)"/>
+				<v:ud v:nameU="msvVisioCreated" v:prompt="" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<rect x="0" y="0" width="595.276" height="841.89" class="st1"/>
+		</g>
+	</g>
+	<g v:mID="0" v:index="2" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>Página-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Diagrama de flujo" v:index="0"/>
+		<v:layer v:name="Conector" v:index="1"/>
+		<g id="shape1-3" v:mID="1" v:groupContext="shape" v:layerMember="0" transform="translate(117.071,-785.197)">
+			<title>Inicio o finalización</title>
+			<desc>Inicio</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Número de proceso" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Propietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Función" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Fecha de inicio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Fecha de finalización" v:prompt="" v:type="5" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Estado" v:prompt="" v:type="4"
+						v:format=";Sin iniciar;En curso;Completado;Aplazado;Esperando entrada" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.39370078740157):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.39370078740157):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="827.717" width="70.87" height="28.3465"/>
+			<path d="M14.17 841.89 L56.69 841.89 A14.1732 14.1732 -180 0 0 56.69 813.54 L14.17 813.54 A14.1732 14.1732 -180 1 0 14.17
+						 841.89 Z" class="st2"/>
+			<text x="25.98" y="830.12" class="st3" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>Inicio</text>		</g>
+		<g id="shape2-6" v:mID="2" v:groupContext="shape" v:layerMember="0" transform="translate(90.1417,-714.331)">
+			<title>Documento</title>
+			<desc>“Bienvenido al sistemas de becas del Instituto Tecnologico de...</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Número de proceso" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Propietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Función" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Fecha de inicio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Fecha de finalización" v:prompt="" v:type="5" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Estado" v:prompt="" v:type="4"
+						v:format=";Sin iniciar;En curso;Completado;Aplazado;Esperando entrada" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="62.3622" cy="815.315" width="124.73" height="31.8898"/>
+			<path d="M0 836.57 L0 799.37 L124.72 799.37 L124.72 836.57 A94.1221 94.1221 -180 0 0 62.36 836.57 A94.1221 94.1221 0
+						 0 1 0 836.57 Z" class="st4"/>
+			<text x="4.45" y="808.11" class="st3" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>“Bienvenido al sistemas de becas <tspan
+						x="13.07" dy="1.2em" class="st5">del Instituto Tecnologico de </tspan><tspan x="43.45" dy="1.2em"
+						class="st5">Zongolica</tspan>”</text>		</g>
+		<g id="shape3-11" v:mID="3" v:groupContext="shape" v:layerMember="0" transform="translate(80.2205,-643.465)">
+			<title>Documento.3</title>
+			<desc>“para saber si eres apto para obtener una beca de inscripción...</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Número de proceso" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Propietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Función" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Fecha de inicio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Fecha de finalización" v:prompt="" v:type="5" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Estado" v:prompt="" v:type="4"
+						v:format=";Sin iniciar;En curso;Completado;Aplazado;Esperando entrada" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="72.2835" cy="815.315" width="144.57" height="31.8898"/>
+			<path d="M0 836.57 L0 799.37 L144.57 799.37 L144.57 836.57 A125.539 125.539 -180 0 0 72.28 836.57 A125.539 125.539 0
+						 0 1 -0 836.57 Z" class="st4"/>
+			<text x="7.1" y="808.11" class="st3" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>“para saber si eres apto para obtener <tspan
+						x="13.52" dy="1.2em" class="st5">una beca de inscripción debes de </tspan><tspan x="9.95" dy="1.2em"
+						class="st5">proporcionar los datos siguientes: </tspan>”</text>		</g>
+		<g id="shape4-16" v:mID="4" v:groupContext="shape" v:layerMember="0" transform="translate(90.1417,-572.598)">
+			<title>Documento.4</title>
+			<desc>“Edad, Estado de nacimiento y el promedio del tu ultimo semes...</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Número de proceso" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Propietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Función" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Fecha de inicio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Fecha de finalización" v:prompt="" v:type="5" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Estado" v:prompt="" v:type="4"
+						v:format=";Sin iniciar;En curso;Completado;Aplazado;Esperando entrada" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="62.3622" cy="815.315" width="124.73" height="31.8898"/>
+			<path d="M0 836.57 L0 799.37 L124.72 799.37 L124.72 836.57 A94.1221 94.1221 -180 0 0 62.36 836.57 A94.1221 94.1221 0
+						 0 1 0 836.57 Z" class="st4"/>
+			<text x="4.9" y="808.11" class="st3" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>“Edad, Estado de nacimiento y el <tspan
+						x="4.45" dy="1.2em" class="st5">promedio del tu ultimo semestre </tspan><tspan x="22.29" dy="1.2em"
+						class="st5">cursando esta escuela</tspan>“</text>		</g>
+		<g id="shape5-21" v:mID="5" v:groupContext="shape" v:layerMember="0" transform="translate(103.465,-501.732)">
+			<title>Datos</title>
+			<desc>edad, estado, promedio</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Número de proceso" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Propietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Función" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Fecha de inicio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Fecha de finalización" v:prompt="" v:type="5" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Estado" v:prompt="" v:type="4"
+						v:format=";Sin iniciar;En curso;Completado;Aplazado;Esperando entrada" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="48.8976" cy="820.63" width="65.2" height="42.5197"/>
+			<path d="M-10.63 841.89 L87.17 841.89 L108.43 799.37 L10.63 799.37 L-10.63 841.89 Z" class="st6"/>
+			<text x="25.35" y="818.23" class="st3" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>edad, estado, <tspan
+						x="31.61" dy="1.2em" class="st5">promedio</tspan></text>		</g>
+		<g id="shape6-25" v:mID="6" v:groupContext="shape" v:layerMember="0" transform="translate(104.173,-415.559)">
+			<title>Decisión</title>
+			<desc>Edad &#62;= 18</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Número de proceso" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Propietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Función" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Fecha de inicio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Fecha de finalización" v:prompt="" v:type="5" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Estado" v:prompt="" v:type="4"
+						v:format=";Sin iniciar;En curso;Completado;Aplazado;Esperando entrada" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="48.189" cy="812.976" width="80.32" height="43.3701"/>
+			<path d="M0 812.98 L48.19 784.06 L96.38 812.98 L48.19 841.89 L0 812.98 Z" class="st2"/>
+			<text x="27.44" y="815.38" class="st3" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>Edad &#62;= 18</text>		</g>
+		<g id="shape7-28" v:mID="7" v:groupContext="shape" v:layerMember="0" transform="translate(243.071,-365.953)">
+			<title>Decisión.7</title>
+			<desc>promedio &#62;= 8</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Número de proceso" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Propietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Función" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Fecha de inicio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Fecha de finalización" v:prompt="" v:type="5" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Estado" v:prompt="" v:type="4"
+						v:format=";Sin iniciar;En curso;Completado;Aplazado;Esperando entrada" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="48.189" cy="812.976" width="80.32" height="43.3701"/>
+			<path d="M0 812.98 L48.19 784.06 L96.38 812.98 L48.19 841.89 L0 812.98 Z" class="st2"/>
+			<text x="21.08" y="815.38" class="st3" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>promedio &#62;= 8</text>		</g>
+		<g id="shape8-31" v:mID="8" v:groupContext="shape" v:layerMember="0" transform="translate(381.969,-324.425)">
+			<title>Decisión.8</title>
+			<desc>estado == “veracruz”</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Número de proceso" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Propietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Función" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Fecha de inicio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Fecha de finalización" v:prompt="" v:type="5" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Estado" v:prompt="" v:type="4"
+						v:format=";Sin iniciar;En curso;Completado;Aplazado;Esperando entrada" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="48.189" cy="812.976" width="80.32" height="43.3701"/>
+			<path d="M0 812.98 L48.19 784.06 L96.38 812.98 L48.19 841.89 L0 812.98 Z" class="st2"/>
+			<text x="10.89" y="815.38" class="st3" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>estado == “veracruz”</text>		</g>
+		<g id="shape9-34" v:mID="9" v:groupContext="shape" v:layerMember="0" transform="translate(473.386,-260.787)">
+			<title>Documento.9</title>
+			<desc>“Eres apto para obtener la beca”</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Número de proceso" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Propietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Función" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Fecha de inicio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Fecha de finalización" v:prompt="" v:type="5" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Estado" v:prompt="" v:type="4"
+						v:format=";Sin iniciar;En curso;Completado;Aplazado;Esperando entrada" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="815.315" width="70.87" height="31.8898"/>
+			<path d="M0 836.57 L0 799.37 L70.87 799.37 L70.87 836.57 A32.185 32.185 -180 0 0 35.43 836.57 A32.185 32.185 0 0 1 -0
+						 836.57 Z" class="st4"/>
+			<text x="8.63" y="812.91" class="st3" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>“Eres apto para <tspan
+						x="6.52" dy="1.2em" class="st5">obtener la beca</tspan>”</text>		</g>
+		<g id="shape10-38" v:mID="10" v:groupContext="shape" v:layerMember="1" transform="translate(200.551,-444.472)">
+			<title>Conector dinámico</title>
+			<desc>Si</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="55.7008" cy="841.89" width="40" height="17.6036"/>
+			<path d="M0 841.89 L90.71 841.89 L90.71 856.54" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="52.6071" y="837.09" width="6.1875" height="9.59985" class="st9"/>
+			<text x="52.61" y="844.29" class="st10" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>Si  </text>		</g>
+		<g id="shape11-46" v:mID="11" v:groupContext="shape" v:layerMember="1" transform="translate(339.449,-395.646)">
+			<title>Conector dinámico.11</title>
+			<desc>Si</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.6614" cy="842.669" width="40" height="17.6036"/>
+			<path d="M0 842.67 L90.71 842.67 L90.71 849.24" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="48.5677" y="837.87" width="6.1875" height="9.59985" class="st9"/>
+			<text x="48.57" y="845.07" class="st10" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>Si  </text>		</g>
+		<g id="shape12-53" v:mID="12" v:groupContext="shape" v:layerMember="1" transform="translate(478.346,-353.339)">
+			<title>Conector dinámico.12</title>
+			<desc>Si</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.4724" cy="851.669" width="40" height="17.6036"/>
+			<path d="M0 841.89 L30.47 841.89 L30.47 885.88" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="27.3787" y="846.87" width="6.1875" height="9.59985" class="st11"/>
+			<text x="27.38" y="854.07" class="st10" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>Si  </text>		</g>
+		<g id="shape13-60" v:mID="13" v:groupContext="shape" v:layerMember="0" transform="translate(28.3465,-339.024)">
+			<title>Documento.13</title>
+			<desc>“No cuentas con la edad necesaria para poder obtener esta beca”</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Número de proceso" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Propietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Función" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Fecha de inicio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Fecha de finalización" v:prompt="" v:type="5" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Estado" v:prompt="" v:type="4"
+						v:format=";Sin iniciar;En curso;Completado;Aplazado;Esperando entrada" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.74803149606299):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="809.055" width="70.87" height="42.0472"/>
+			<path d="M0 835.98 L0 788.03 L70.87 788.03 L70.87 835.98 A29.5276 29.5276 -180 0 0 35.43 835.98 A29.5276 29.5276 0 0
+						 1 0 835.98 Z" class="st4"/>
+			<text x="2.29" y="797.06" class="st3" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>“No cuentas con la <tspan
+						x="9.08" dy="1.2em" class="st5">edad necesaria </tspan><tspan x="15.99" dy="1.2em" class="st5">para poder </tspan><tspan
+						x="2.34" dy="1.2em" class="st5">obtener esta beca</tspan>”</text>		</g>
+		<g id="shape14-66" v:mID="14" v:groupContext="shape" v:layerMember="0" transform="translate(155.197,-277.795)">
+			<title>Documento.14</title>
+			<desc>“Tu promedio no es el minimo requerido para poder obtener est...</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Número de proceso" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Propietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Función" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Fecha de inicio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Fecha de finalización" v:prompt="" v:type="5" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Estado" v:prompt="" v:type="4"
+						v:format=";Sin iniciar;En curso;Completado;Aplazado;Esperando entrada" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.90551181102362):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="803.386" width="70.87" height="53.3858"/>
+			<path d="M0 835.98 L0 776.69 L70.87 776.69 L70.87 835.98 A29.5276 29.5276 -180 0 0 35.43 835.98 A29.5276 29.5276 0 0
+						 1 0 835.98 Z" class="st4"/>
+			<text x="5.48" y="786.59" class="st3" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>“Tu promedio no <tspan
+						x="12.96" dy="1.2em" class="st5">es el minimo </tspan><tspan x="9.27" dy="1.2em" class="st5">requerido para </tspan><tspan
+						x="9.92" dy="1.2em" class="st5">poder obtener </tspan><tspan x="17.32" dy="1.2em" class="st5">esta beca</tspan>”</text>		</g>
+		<g id="shape16-73" v:mID="16" v:groupContext="shape" v:layerMember="0" transform="translate(297.638,-245.197)">
+			<title>Documento.16</title>
+			<desc>“La beca solo puede ser otorgada a estudiantes del estado de ...</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Número de proceso" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Propietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Función" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Fecha de inicio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Fecha de finalización" v:prompt="" v:type="5" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Estado" v:prompt="" v:type="4"
+						v:format=";Sin iniciar;En curso;Completado;Aplazado;Esperando entrada" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(1.0236220472441):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="799.134" width="70.87" height="61.8898"/>
+			<path d="M0 835.98 L0 768.19 L70.87 768.19 L70.87 835.98 A29.5276 29.5276 -180 0 0 35.43 835.98 A29.5276 29.5276 0 0
+						 1 0 835.98 Z" class="st4"/>
+			<text x="12.14" y="777.53" class="st3" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>“La beca solo <tspan
+						x="18" dy="1.2em" class="st5">puede ser </tspan><tspan x="16.09" dy="1.2em" class="st5">otorgada a </tspan><tspan
+						x="8.75" dy="1.2em" class="st5">estudiantes del </tspan><tspan x="18.01" dy="1.2em" class="st5">estado de </tspan><tspan
+						x="19.18" dy="1.2em" class="st5">veracruz</tspan>”</text>		</g>
+		<g id="shape18-81" v:mID="18" v:groupContext="shape" v:layerMember="1" transform="translate(104.173,-444.472)">
+			<title>Conector dinámico.18</title>
+			<desc>No</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-40.3937" cy="847.488" width="40" height="17.6036"/>
+			<path d="M0 841.89 L-40.39 841.89 L-40.39 887.44" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="-45.7297" y="842.688" width="10.6718" height="9.59985" class="st9"/>
+			<text x="-45.73" y="849.89" class="st10" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>No  </text>		</g>
+		<g id="shape19-88" v:mID="19" v:groupContext="shape" v:layerMember="0" transform="translate(120.472,-139.196)">
+			<title>Inicio o finalización.19</title>
+			<desc>Fin</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Número de proceso" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Propietario" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Función" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Fecha de inicio" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="Fecha de finalización" v:prompt="" v:type="5" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="3082" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Estado" v:prompt="" v:type="4"
+						v:format=";Sin iniciar;En curso;Completado;Aplazado;Esperando entrada" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="3082" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.39370078740157):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.39370078740157):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="827.717" width="70.87" height="28.3465"/>
+			<path d="M14.17 841.89 L56.69 841.89 A14.1732 14.1732 -180 0 0 56.69 813.54 L14.17 813.54 A14.1732 14.1732 -180 1 0 14.17
+						 841.89 Z" class="st2"/>
+			<text x="30.25" y="830.12" class="st3" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>Fin</text>		</g>
+		<g id="shape20-91" v:mID="20" v:groupContext="shape" v:layerMember="1" transform="translate(63.7795,-344.929)">
+			<title>Conector dinámico.20</title>
+			<path d="M0 841.89 L0 1033.45 L50.65 1033.45" class="st7"/>
+		</g>
+		<g id="shape21-96" v:mID="21" v:groupContext="shape" v:layerMember="1" transform="translate(190.63,-283.701)">
+			<title>Conector dinámico.21</title>
+			<path d="M0 841.89 L0 869.06 L-34.72 869.06 L-34.72 952.01" class="st7"/>
+		</g>
+		<g id="shape22-101" v:mID="22" v:groupContext="shape" v:layerMember="1" transform="translate(333.071,-251.102)">
+			<title>Conector dinámico.22</title>
+			<path d="M0 841.89 L0 939.62 L-135.69 939.62" class="st7"/>
+		</g>
+		<g id="shape23-106" v:mID="23" v:groupContext="shape" v:layerMember="1" transform="translate(508.819,-266.102)">
+			<title>Conector dinámico.23</title>
+			<path d="M0 841.89 L0 954.62 L-311.44 954.62" class="st7"/>
+		</g>
+		<g id="shape24-111" v:mID="24" v:groupContext="shape" v:layerMember="1" transform="translate(381.969,-353.339)">
+			<title>Conector dinámico.24</title>
+			<desc>No</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-41.6693" cy="841.89" width="40" height="17.6036"/>
+			<path d="M0 841.89 L-48.9 841.89 L-48.9 870.29" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="-47.0053" y="837.09" width="10.6718" height="9.59985" class="st9"/>
+			<text x="-47.01" y="844.29" class="st10" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>No  </text>		</g>
+		<g id="shape25-118" v:mID="25" v:groupContext="shape" v:layerMember="1" transform="translate(243.071,-394.866)">
+			<title>Conector dinámico.25</title>
+			<desc>No</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-52.1575" cy="841.89" width="40" height="17.6036"/>
+			<path d="M0 841.89 L-52.44 841.89 L-52.44 887.72" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="-57.4935" y="837.09" width="10.6718" height="9.59985" class="st9"/>
+			<text x="-57.49" y="844.29" class="st10" v:langID="2058"><v:paragraph v:horizAlign="1"/><v:tabList/>No  </text>		</g>
+		<g id="shape26-125" v:mID="26" v:groupContext="shape" v:layerMember="1" transform="translate(145.417,-785.197)">
+			<title>Conector dinámico.26</title>
+			<path d="M7.09 841.89 L7.09 864.2" class="st7"/>
+		</g>
+		<g id="shape27-130" v:mID="27" v:groupContext="shape" v:layerMember="1" transform="translate(145.417,-719.646)">
+			<title>Conector dinámico.27</title>
+			<path d="M7.09 841.89 L7.09 869.51" class="st7"/>
+		</g>
+		<g id="shape28-135" v:mID="28" v:groupContext="shape" v:layerMember="1" transform="translate(145.417,-648.78)">
+			<title>Conector dinámico.28</title>
+			<path d="M7.09 841.89 L7.09 869.51" class="st7"/>
+		</g>
+		<g id="shape29-140" v:mID="29" v:groupContext="shape" v:layerMember="1" transform="translate(159.52,-577.913)">
+			<title>Conector dinámico.29</title>
+			<path d="M-7.02 841.89 L-7.02 857.83 L-7.16 857.83 L-7.16 869.51" class="st7"/>
+		</g>
+		<g id="shape30-145" v:mID="30" v:groupContext="shape" v:layerMember="1" transform="translate(145.276,-501.732)">
+			<title>Conector dinámico.30</title>
+			<path d="M7.09 841.89 L7.09 864.2" class="st7"/>
+		</g>
+	</g>
+</svg>
