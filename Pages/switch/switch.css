@@ -22,7 +22,10 @@ html {
 body {
   background-color: #ededed;
 }
-
+a {
+  color: white;
+  text-decoration: none;
+}
 /* parte del header */
 header {
   position: relative;

@@ -152,12 +152,13 @@ function getInformation() {
   //Mostrar información
   const divInformation = document.createElement("div");
   divInformation.innerHTML = `
-    <p>El promedio del grupo: ${media}</p>
+    <p>El promedio del grupo: ${media.toFixed(2)}</p>
     <p>La califación más obtenida fue ${moda} con ${valorDeLaModa} alumnos </p>
     <p>Alumno con el promedio más alto: ${max}</p>
     <p>Alumno con el promedio más bajo: ${min}</p>
     <p>Numero de aprobados: ${aprobados.length}</p>
     <p>Numero de reprobados: ${reprobados.length}</p>
+    
   `;
   document
     .querySelector("#repResults")
