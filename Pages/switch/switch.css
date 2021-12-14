@@ -285,6 +285,9 @@ a:hover {
   .logo-footer__container a img {
     width: 200px;
   }
+  .grid__container .algoritmo__container form input, .grid__container .algoritmo__container form select, #poligonForm input {
+    margin: 5px 0;
+  }
 }
 
 @media (max-width: 500px) {

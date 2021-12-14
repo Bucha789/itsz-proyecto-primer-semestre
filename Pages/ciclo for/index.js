@@ -43,17 +43,14 @@ closeMenu.addEventListener("click", () => {
 
 //Primer algoritmo
 document.querySelector('#dogsForm').addEventListener('submit', async (e) => {
-  console.log(e)
   e.preventDefault();
   let numberOfDogs = Number(document.querySelector('#numberOfDogs').value);
   let dogsResults = document.querySelector('#dogsResults');
-  const div = document.createElement('div');
   const data =  await getDogsImages(numberOfDogs)
     for (let i = 0; i < data.length; i++) {
       const img = document.createElement('img');
       img.src = data[i];
-      div.append(img)
-      dogsResults.append(div)
+      dogsResults.append(img)
     }
 })
 
@@ -73,6 +70,7 @@ buttonRick.addEventListener('click', async () => {
   let charactersDiv = document.createElement('div');
   let numberRandom = getNumberRandom(1, 42);
   let data = await getRickCharacters(numberRandom);
+  charactersDiv.classList.add('results__container')
   for (let i = 0; i < data.length; i++) {
     let characterInfo = document.createElement('div');
     characterInfo.innerHTML = `
@@ -105,6 +103,7 @@ ducksForm.addEventListener('submit', (e) => {
   let numberOfDucks = Number(document.querySelector('#numberOfDucks').value);
   let numberRandom = getNumberRandom(1, 282);
   let imagesContainer = document.createElement('div');
+  imagesContainer.classList.add('results__container')
   //porque no quiero problemas de performance, solo usaré la función una vez, pero perfectamente podría mandarla a llamar en cada iteración del bucle
   for (let i = 0; i < numberOfDucks; i++) {
     const URL = `https://random-d.uk/api/v2/${numberRandom + i}.jpg`

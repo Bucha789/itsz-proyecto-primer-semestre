@@ -26,21 +26,21 @@
       <h1>PFADP <span>El mejor sitio de algoritmos</span></h1>
     </div>
     <nav class="menu-desktop">
-      <a href="/">Perritos Img</a>
-      <a href="/">Rick And Morty</a>
-      <a href="/">Ducks Img</a>
-      <a href="/">Siglos</a>
-      <a href="/">Factorial</a>
+      <a href="#primero"><i class="fas fa-paw"></i> Perritos Img</a>
+      <a href="#segundo"><i class="fas fa-tv"></i> Rick And Morty</a>
+      <a href="#tercero"><i class="fas fa-water"></i> Ducks Img</a>
+      <a href="#cuarto"><i class="far fa-calendar-alt"></i> Siglos</a>
+      <a href="#quinto"><i class="fas fa-sort-numeric-down-alt"></i> Factorial</a>
     </nav>
     <nav class="menu-mobile">
       <img class="open" src="../../assets/img/menu-button-of-three-horizontal-lines.png" alt="">
       <img class="close" src="../../assets/img/close.png" alt="">
     <ul class="mobile-options">
-      <li><a href="./Pages/secuenciales.html">Perritos Img</a></li>
-      <li><a href="/">Rick And Morty</a></li>
-      <li><a href="/">Ducks Img</a></li>
-      <li><a href="/">Siglos</a></li>
-      <li><a href="/">Factorial</a></li>
+      <li><a href="#primero"><i class="fas fa-paw"></i> Perritos Img</a></li>
+      <li><a href="#segundo"><i class="fas fa-tv"></i> Rick And Morty</a></li>
+      <li><a href="#tercero"><i class="fas fa-water"></i> Ducks Img</a></li>
+      <li><a href="#cuarto"><i class="far fa-calendar-alt"></i> Siglos</a></li>
+      <li><a href="#quinto"><i class="fas fa-sort-numeric-down-alt"></i> Factorial</a></li>
     </ul>
     </nav>
   </header>
@@ -52,59 +52,100 @@
         <img class="image__slider active" src="../../assets/img/mayordedadcounter.jpg" alt="diagrama de flujo">
       </div>
     </section>
-    <section class="algoritmo__container">
-      <h3>1.- Generador de perritos Random </h3>
-      <p>Solamente selecciona el número de perritos que te gustaría que aparecieran.</p>
-      <form id="dogsForm">
-        <label name="numberOfDogs">
-          <span>Número de perritos:</span>
-        <input type="number"  min="1" max="50" name="numberOfDogs" id="numberOfDogs">
-        </label>
-        <button class="button__form">Mostrar</button>
-      </form>
-      <div id="dogsResults"></div>
+    <section class="info__container">
+      <h2>Algoritmos con ciclo For</h2>
+      <p>Este tipo de estructura permite implementar la repetición de un cierto conjunto de instrucciones
+        un número pre-determinado de veces.</p>
+      <p> Para ello se utiliza una variable de control del bucle, llamada también índice, que va recorriendo
+        un conjunto pre-fijado de valores en un orden determinado. Para cada valor del índice en dicho
+        conjunto, se ejecuta una vez el mismo conjunto de instrucciones</p>
+      <img src="./diagrama1.jpg" alt="">
     </section>
-    <section class="algoritmo__container">
+    <section class="grid__container">
+      <!-- primer algoritmo -->
+      <article id="primero" class="algoritmo__container">
+        <h3>1.- Generador de perritos Random </h3>
+        <p>Solamente selecciona el número de perritos que te gustaría que aparecieran.</p>
+        <form id="dogsForm">
+          <label name="numberOfDogs">
+            <span>Número de perritos:</span>
+            <input type="number"  min="1" max="50" required name="numberOfDogs" id="numberOfDogs">
+          </label>
+          <button class="button__form">Mostrar</button>
+        </form>
+        <div class="results__container" id="dogsResults"></div>
+      </article>
+    <!-- segundo algoritmo -->
+      <article id="segundo" class="algoritmo__container">
       <h3>2.- Generador de personajes de Rick And Morty Random </h3>
       <p>Da click en el botón empezar para mostrarte personajes random de rick and morty.</p>
       <button id="rickButton" class="button__form">Mostrar</button>
-    </section>
-    <section class="algoritmo__container">
+    </article>
+    <!-- tercer algoritmo -->
+    <article id="tercero" class="algoritmo__container">
       <h3>3.- Generador de patos Random</h3>
       <p>Selecciona el número de patitos que te gustaría ver. No seas malo con el algoritmo selecciona números no tan grandes ;).</p>
       <form id="quacksForm">
         <label name="numberOfDucks">
           <span>Número de Quacks:</span>
-        <input type="number" name="numberOfDucks" min="1" max="282" id="numberOfDucks">
+          <input type="number" name="numberOfDucks" min="1" required max="282" id="numberOfDucks">
         </label>
         <button class="button__form">Mostrar</button>
       </form>   
-    </section>
-    <section class="algoritmo__container">
+    </article>
+    <!-- cuarto algoritmo -->
+    <article id="cuarto" class="algoritmo__container">
       <h3>4.- Calculadora de Siglos</h3>
       <p>Ingresa el año para saber a que siglo corresponde.</p>
       <form id="sigloForm">
         <label name="year">
           <span>Año a calcular:</span>
-          <input type="number" name="year" id="year">
+          <input type="number" name="year" required id="year">
         </label>
         <button class="button__form">Saber</button>
       </form>
-      <p id="sigloResult"></p>
-    </section>
-    <section class="algoritmo__container">
+      <p class="result" id="sigloResult"></p>
+    </article>
+      <!-- quinto algoritmo -->
+    <article id="quinto" class="algoritmo__container">
       <h3>5.- Factorial y Sumarial de un N número.</h3>
       <p>Ingresa el número que quieres evaluar.</p>
       <form id="factForm">
         <label name="number">
           <span>Número:</span>
-          <input type="number" name="number" id="number">
+          <input type="number" name="number" required id="number">
         </label>
         <button class="button__form">Calcular</button>
       </form>
-      <p id="sumResult"></p>
-      <p id="facResult"></p>
-    </section>
+      <p class="result" id="sumResult"></p>
+      <p class="result" id="facResult"></p>
+    </article>
+  </section>
   </main>
+  <footer>
+    <div class="logo-footer__container">
+      <a href="https://zongolica.tecnm.mx/TecNM/">
+        <img src="../../assets/img/logo.png" alt="Logo de la universidad">
+      </a>
+    </div>
+    <div class="list__container">
+      <h2>Lista de algoritmos</h2>
+      <ul>
+        <li><a href="../secuenciales/secuenciales.html">Secuenciales</a></li>
+        <li><a href="../condicionales/condicionales.html">Condicionales</a></li>
+        <li><a href="../switch/switch.html">Switch</a></li>
+        <li><a href="../ciclo for/for.html">Ciclo For</a></li>
+        <li><a href="../ciclo while/while.html">Ciclo While</a></li>
+      </ul>
+    </div>
+    <div class="social__container">
+      <h2>Sobre mí</h2>
+      <ul>
+        <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+        <li><a href=""><i class="fab fa-instagram"></i> Instagram</a></li>
+        <li><a href=""><i class="fab fa-github"></i> Github</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
